@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "407802515376",
+    "firebase_url": "https://chatnewsfeed.firebaseio.com",
+    "project_id": "chatnewsfeed",
+    "storage_bucket": "chatnewsfeed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:407802515376:android:299048840d21d23c",
+        "android_client_info": {
+          "package_name": "com.example.chatnewsfeed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "407802515376-ief8g602s9rluir95f1f7equkcc4cahf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chatnewsfeed",
+            "certificate_hash": "b7349ba5727ffb8355a6400d590765bbc773084a"
+          }
+        },
+        {
+          "client_id": "407802515376-hfcu5pac831tbs2can3kod53npp27nl8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDznAJ2mjFbkEmrVOeEmTQD2TV0bAUwvC4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "407802515376-hfcu5pac831tbs2can3kod53npp27nl8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

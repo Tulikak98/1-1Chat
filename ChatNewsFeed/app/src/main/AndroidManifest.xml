@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.chatnewsfeed">
+
+    <application
+            android:allowBackup="true"
+            android:icon="@drawable/message_logo"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name=".FeedBackActivity">
+        </activity>
+        <activity android:name=".ChatLogActivity">
+        </activity>
+        <activity android:name=".LatestMessageActivity">
+        </activity>
+        <activity android:name=".BooksActivity">
+        </activity>
+        <activity android:name=".PersonalinfoActivity">
+        </activity>
+        <activity android:name=".NewMessageActivity">
+        </activity>
+        <activity
+                android:name=".HomePage"
+                android:label="@string/title_activity_home_page"
+                android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity_authentication">
+        </activity>
+        <activity android:name=".Activity_student">
+        </activity>
+        <activity android:name=".Activity_faculty">
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

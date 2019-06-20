@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">ChatFeed</string>
+    <string name="student">Student</string>
+    <string name="semail_id">Email Id*</string>
+    <string name="sname">Name</string>
+    <string name="faculty">faculty</string>
+    <string name="fnext">Next</string>
+    <string name="snext">Next</string>
+    <string name="auth_email">Please enter your Code which has been sent in your Mobile number</string>
+    <string name="password">_ _ _ _ _ _</string>
+    <string name="buttonDone">Done</string>
+    <string name="emailFid">Email Id</string>
+    <string name="collegeFid">College Id</string>
+    <string name="contactSno">Contact No.*</string>
+    <string name="collegeSid">College Id</string>
+    <string name="welcomeToChatfeed">Welcome To ChatFeed!!</string>
+    <string name="done">Done</string>
+    <string name="fname">Name</string>
+    <string name="emailFId">Email Id *</string>
+    <string name="contactFno">Contact No.*</string>
+    <string name="emailSid">Email Id*</string>
+    <string name="viewEmail">Please enter your Code which has been sent in Your Mobile Number</string>
+    <string name="facultybutton">Faculty</string>
+    <string name="studentbutton">Student</string>
+    <string name="welcomestart">Welcome To ChatFeed!!</string>
+    <string name="facultyText">Faculty</string>
+
+    <string name="title_activity_chat">chat</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="newsfeed">Newsfeed</string>
+    <string name="chat">Chat</string>
+    <string name="books">Books</string>
+
+    <string-array name="Streams">
+        <item>-Select Stream-</item>
+        <item>BSC-IT</item>
+        <item>BSC-CS</item>
+        <item>BMS</item>
+        <item>BBI</item>
+        <item>BMM</item>
+        <item>BCOM</item>
+        <item>BA</item>
+    </string-array>
+    <string-array name="Div">
+        <item>-Select Division-</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+    </string-array>
+    <string-array name="Mentor_leader">
+        <item>-Select Current Year-</item>
+        <item>First Year</item>
+        <item>Second Year</item>
+        <item>Third Year</item>
+    </string-array>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:backgroundTint="@color/common_google_signin_btn_text_dark_disabled"
+        android:background="@drawable/bordersround"
+        android:layout_margin="1dp"
+        android:id="@+id/userrowlayout"
+        android:scrollbars="vertical">
+    <TextView
+            android:text="UserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:id="@+id/username_textview_new_message"
+            android:visibility="visible"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="25dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:fontFamily="@font/arbutus_slab"
+            android:layout_marginStart="80dp"
+            android:textStyle="bold"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/imageView_new_message"
+            app:civ_border_width="1dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            app:civ_border_color="#000000"
+            android:layout_marginBottom="5dp"
+            app:srcCompat = "@android:drawable/btn_dialog"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/username_textview_new_message"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:visibility="visible"
+    />
+</android.support.constraint.ConstraintLayout>

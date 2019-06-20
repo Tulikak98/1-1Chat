@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="New Group"
+          android:id="@+id/New_Group"/>
+    <item android:title="Starred Messages"
+          android:id="@+id/starred"/>
+    <item android:title="Settings"
+          android:id="@+id/Settings"
+          android:menuCategory="secondary">
+        <menu
+        >
+            <item android:title="Personal Info" android:id="@+id/personal_info"/>
+            <item
+                    android:id="@+id/notification"
+                    android:title="Notification"
+                    app:showAsAction="always"
+            />
+            <item android:title="Sign Out" android:id="@+id/sign_out"/>
+        </menu>
+    </item>
+</menu>

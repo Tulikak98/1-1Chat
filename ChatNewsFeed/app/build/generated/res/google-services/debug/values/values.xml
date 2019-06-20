@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">407802515376-hfcu5pac831tbs2can3kod53npp27nl8.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://chatnewsfeed.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">407802515376</string>
+    <string name="google_api_key" translatable="false">AIzaSyDznAJ2mjFbkEmrVOeEmTQD2TV0bAUwvC4</string>
+    <string name="google_app_id" translatable="false">1:407802515376:android:299048840d21d23c</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDznAJ2mjFbkEmrVOeEmTQD2TV0bAUwvC4</string>
+    <string name="google_storage_bucket" translatable="false">chatnewsfeed.appspot.com</string>
+    <string name="project_id" translatable="false">chatnewsfeed</string>
+</resources>
